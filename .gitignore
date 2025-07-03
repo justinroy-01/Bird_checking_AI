@@ -1,0 +1,27 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore model files
+*.pkl
+*.pth
+
+# Ignore data folders and images
+bird_or_not/
+*.jpg
+*.png
+*.jpeg
+*.zip
+
+# Ignore environment files
+.env
+.venv
+*.env
+
+# VS Code / Jupyter stuff
+.vscode/
+*.ipynb_checkpoints/
+.DS_Store
